@@ -28,9 +28,7 @@ a{color:inherit;text-decoration:none}
 .hero-facts div{display:flex;flex-direction:column;max-width:145px}
 .hero-facts strong{font:700 25px "Space Grotesk"}.hero-facts span{font-size:12px;color:var(--muted)}
 .hero-card{background:var(--dark);padding:16px;border-radius:var(--radius);box-shadow:0 25px 70px rgba(0,0,0,.12)}
-.portrait-placeholder{aspect-ratio:4/5;border-radius:15px;display:grid;place-items:center;text-align:center;background:linear-gradient(145deg,#29302c,#101211);color:#dce1dc}
-.initials{font:700 92px "Space Grotesk";color:var(--accent);letter-spacing:-.08em}
-.portrait-placeholder p{margin:-35px 0 0;font-weight:600}.portrait-placeholder small{display:block;color:#9ca49d;font-size:11px;max-width:190px}
+.portrait-panel{aspect-ratio:4/5;border-radius:15px;display:grid;place-items:center;text-align:center;background:linear-gradient(145deg,#29302c,#101211);color:#dce1dc;padding:25px}.initials{font:700 92px "Space Grotesk";color:var(--accent);letter-spacing:-.08em}.portrait-panel p{margin:-25px 0 0;font-weight:600}.portrait-panel small{display:block;color:#9ca49d;font-size:11px;max-width:220px}
 .hero-card-footer{display:flex;justify-content:space-between;gap:20px;color:#9da49f;font-size:10px;padding:15px 5px 2px}
 .section{padding:110px 28px;max-width:var(--max);margin:auto}
 .section-dark{max-width:none;background:var(--dark);color:#f3f5f1;padding-left:max(28px,calc((100% - var(--max))/2 + 28px));padding-right:max(28px,calc((100% - var(--max))/2 + 28px))}

@@ -1,34 +1,19 @@
 # Abdullah Kayman — Portfolio Website
 
-This is a responsive, dependency-light static portfolio website for Abdullah Kayman.
+Static portfolio website for Abdullah Kayman, Civil Engineer and Construction Project Management professional.
 
 ## Files
-- `index.html` — main website content
-- `styles.css` — responsive visual design
-- `script.js` — mobile navigation and current year
-- `assets/media/` — place selected project/university images and videos here
+- `index.html` — page content and structure
+- `styles.css` — design and responsive layout
+- `script.js` — mobile navigation and footer year
+- `assets/Abdullah-Kayman-CV.pdf` — current CV
+- `assets/media/` — selected project media can be added here later
 
-## Before publishing
-1. Replace `YOUR-EMAIL@example.com` in `index.html` with the real professional email.
-2. Replace the LinkedIn URL with the actual profile URL.
-3. Replace the professional-photo placeholder with a headshot.
-4. Replace the gallery/project placeholders with curated images.
-5. Add the latest CV as `assets/Abdullah-Kayman-CV.pdf` and change the CV link.
-6. Review all project names, dates and role titles against the final CV.
-7. Compress web images to roughly 200–700 KB each and prefer WebP/JPEG.
-8. Do not publish confidential drawings, client documents, personal data, or employer-sensitive material.
-9. For video, use compressed MP4/WebM files or embed a hosted video instead of uploading raw phone footage.
+## GitHub Pages
+Upload/replace these files in the root of `abdullah-kayman.github.io` and publish from the `main` branch using GitHub Pages.
 
-## Recommended media selection
-Start with:
-- CHEC: 10–20 strongest photos + 2–4 short videos
-- Evercare Hospital: 10–15 photos + 1–3 short videos
-- Residential project: 6–10 photos
-- MK Engineering: 5–8 photos
-- University/research: 8–12 photos across MSc/BSc work
-- Certificates: selected high-value credentials only
+## Media
+The public site intentionally uses no placeholder instructions. Add selected, web-optimised project photographs to `assets/media/` and reference them in `index.html` when ready.
 
-Keep the full 2+ GB original archive offline as your master archive.
-
-## Publishing
-The site is plain HTML/CSS/JS, so it can be hosted on GitHub Pages, Netlify, Vercel, or standard web hosting without a backend.
+## Privacy
+Do not publish confidential drawings, contracts, internal documents, supplier information, personal data, or project material restricted by an employer/client.
