@@ -1,19 +1,17 @@
-# Abdullah Kayman — Portfolio Website
+# Abdullah Kayman Portfolio
 
-Static portfolio website for Abdullah Kayman, Civil Engineer and Construction Project Management professional.
+Static GitHub Pages portfolio for Abdullah Kayman.
 
-## Files
-- `index.html` — page content and structure
-- `styles.css` — design and responsive layout
-- `script.js` — mobile navigation and footer year
-- `assets/Abdullah-Kayman-CV.pdf` — current CV
-- `assets/media/` — selected project media can be added here later
+## Included media
+- Headshot: `assets/media/abdullah-kayman-headshot.jpg`
+- CHEC project photos: `assets/media/CHEC/`
+- CHEC project video: `assets/media/CHEC/CHEC (1).mp4`
+- Evercare project photos: `assets/media/Evercare/`
+- MNC residential project photos: `assets/media/MNC/`
+- Commercial project photos: `assets/media/Commercial/`
+- University 4D/5D BIM work: embedded from LinkedIn
 
 ## GitHub Pages
-Upload/replace these files in the root of `abdullah-kayman.github.io` and publish from the `main` branch using GitHub Pages.
+Upload the contents of this folder to the root of `abdullah-kayman.github.io`.
 
-## Media
-The public site intentionally uses no placeholder instructions. Add selected, web-optimised project photographs to `assets/media/` and reference them in `index.html` when ready.
-
-## Privacy
-Do not publish confidential drawings, contracts, internal documents, supplier information, personal data, or project material restricted by an employer/client.
+The project cards contain galleries that use the exact filenames supplied for the project media. Keep the folder names and filenames unchanged unless the corresponding paths in `index.html` are also updated.
