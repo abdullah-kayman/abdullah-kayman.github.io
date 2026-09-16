@@ -66,3 +66,12 @@ footer{display:flex;justify-content:space-between;padding:25px 5vw;background:#0
 .lightbox-close{position:absolute;top:18px;right:24px;width:44px;height:44px;border:1px solid rgba(255,255,255,.35);border-radius:50%;background:rgba(0,0,0,.35);color:#fff;font-size:28px;line-height:1;cursor:pointer}
 .lightbox-close:hover{background:rgba(255,255,255,.12)}
 @media(max-width:850px){.project-image.project-photo{aspect-ratio:16/9}.project-gallery img{height:95px}}
+
+/* CV selection */
+.cv-section{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:0 0 42px}
+.cv-card{border:1px solid #303631;border-radius:18px;padding:24px;background:#171a18;display:flex;flex-direction:column;justify-content:space-between;gap:22px}
+.cv-card h3{font:700 24px "Space Grotesk";margin:8px 0}
+.cv-card p:not(.card-label){color:#9da49f;font-size:13px;margin:0;max-width:430px}
+.cv-actions{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.cv-text-link{font-size:12px;color:#c9cec9;text-decoration:underline;text-underline-offset:4px}
+@media(max-width:850px){.cv-section{grid-template-columns:1fr}}
