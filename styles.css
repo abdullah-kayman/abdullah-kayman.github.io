@@ -75,3 +75,38 @@ footer{display:flex;justify-content:space-between;padding:25px 5vw;background:#0
 .cv-actions{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .cv-text-link{font-size:12px;color:#c9cec9;text-decoration:underline;text-underline-offset:4px}
 @media(max-width:850px){.cv-section{grid-template-columns:1fr}}
+
+/* ---- Improvements: readability, accessibility, new elements ---- */
+/* Role / result line on project cards */
+.project-body p.project-result{font-size:14px;color:var(--ink);background:#f3f4ef;border-left:3px solid var(--ink);border-radius:0 8px 8px 0;padding:10px 14px;margin:16px 0}
+.project-body p.project-result strong{font-weight:700}
+
+/* LinkedIn fallback link */
+.embed-fallback{display:inline-block;margin-top:16px;font-size:13px;font-weight:700;border-bottom:1px solid}
+
+/* Larger small text (was 9-11px) */
+.eyebrow,.card-label,.project-kicker{font-size:12px}
+.panel-label{font-size:12px}
+.hero-card-footer{font-size:12px}
+.research-stats span{font-size:12px}
+.mini-list span{font-size:12px}
+.credential p{font-size:13px}
+.credential-icon{font-size:12px}
+.contact-link{font-size:14px}
+.cv-card p:not(.card-label){font-size:14px}
+.cv-text-link{font-size:13px}
+.folder-list div,.folder-list strong{font-size:12px}
+footer{font-size:12px}
+.research-stats span{max-width:150px}
+
+/* Keyboard focus */
+a:focus-visible,button:focus-visible,video:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.section-dark a:focus-visible,.lightbox button:focus-visible{outline-color:var(--accent)}
+
+/* Respect reduced-motion preferences */
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}
+  .project-card:hover{transform:none}
+  .project-gallery a:hover img{transform:none}
+}
